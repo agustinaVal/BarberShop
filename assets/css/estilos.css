@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "Playfair Display";
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 70px;
+  font-family: "Playfair Display";
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Playfair Display" !important;
+}
+
+p, span {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+span {
+  color: #D76C69;
+}
+
+a {
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+#Header {
+  background-color: #121619 !important;
+}
+
+.logo__image {
+  width: 81px;
+  height: 34px;
+}
+
+i.fa.fa-angle-double-down {
+  width: 30px;
+  height: 30px;
+  color: #fff;
+}
+
+#Main {
+  background-image: url(../img/post-image.jpg);
+  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 50px;
+  height: 80%;
+}
+
+.main-container__parrafo {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
+.Naomi__image {
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 400px) {
+  .Naomi__image {
+    width: 131px;
+    height: 136px;
+    align-items: middle;
+    text-align: center;
+  }
+}
+#Pagination-section {
+  background-color: #E6E7E7;
+  height: 156px;
+}
+
+.Buttons_Pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Footer {
+  background-color: #121619;
+  height: 207px;
+}
+
+.logo__image-footer {
+  width: 122px;
+  height: 122px;
+}
+
+@media only screen and (max-width: 400px) {
+  .logo__image-footer {
+    width: 81px;
+    height: 34px;
+    align-items: center;
+  }
+}
+.page-link {
+  background-color: #fff;
+  color: #6C6E70;
+}
+
+#Pagination-Buttons__btn-left {
+  border-radius: 0px 50px 50px 0px;
+}
+
+#Pagination-Buttons__btn-right {
+  border-radius: 50px 0px 0px 50px;
+}
+
+.articule__small-Button {
+  width: 115px;
+  height: 51px;
+  border-radius: 50px 50px;
+  color: #fff;
+  background-color: #6C6E70;
+  border-color: #6C6E70;
+}
+.articule__small-Button:hover {
+  background-color: #D1D1D1;
+  border-color: #D1D1D1;
+}
+
+.articule__medium-Button {
+  width: 182px;
+  height: 51px;
+  border-radius: 50px 50px;
+  color: #fff;
+  background-color: #6C6E70;
+  border-color: #6C6E70;
+}
+.articule__medium-Button:hover {
+  background-color: #D1D1D1;
+  border-color: #D1D1D1;
+}
+
+/*# sourceMappingURL=estilos.css.map */

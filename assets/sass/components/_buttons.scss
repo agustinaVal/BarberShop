@@ -1,0 +1,37 @@
+.page-link{
+    background-color:$white;
+    color:$Nickel;
+}
+#Pagination-Buttons__btn-left{
+    border-radius: 0px 50px 50px 0px;
+}
+#Pagination-Buttons__btn-right{
+    border-radius: 50px 0px 0px 50px ;
+}
+
+
+.articule__small-Button{
+    width: 115px;
+    height: 51px;
+    border-radius: 50px 50px;
+    color: $white;
+    background-color:$Nickel;
+    border-color: $Nickel;
+    &:hover{
+        background-color:$gray;
+        border-color: $gray;
+    }
+}
+
+.articule__medium-Button{
+    width: 182px;
+    height: 51px;
+    border-radius: 50px 50px;
+    color: $white;
+    background-color:$Nickel;
+    border-color: $Nickel;
+    &:hover{
+        background-color:$gray;
+        border-color: $gray;
+    }
+}

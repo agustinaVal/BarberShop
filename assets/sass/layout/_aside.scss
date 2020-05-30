@@ -1,0 +1,17 @@
+.Naomi__image{
+    border-radius:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+// Querys
+
+@media only screen and (max-width: 400px) {
+    .Naomi__image{
+      width: 131px;
+      height: 136px;
+      align-items: middle;
+      text-align: center;
+    }
+  }

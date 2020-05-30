@@ -1,0 +1,22 @@
+#Footer{
+    background-color: $Eerie;
+    height: 207px;
+}
+
+.logo__image-footer{
+    width: 122px;
+    height: 122px;
+   
+}
+
+// Querys
+
+@media only screen and (max-width: 400px) {
+    .logo__image-footer{
+      width: 81px;
+      height: 34px;
+      align-items: center;
+    }
+  }
+
+
